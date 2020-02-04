@@ -8,7 +8,7 @@ module.exports = function(context, req) {
 
     let db = client.db('admin');
 
-    let subscriber = (req.body);
+    let subscriber = (req.body); 
 
     db.collection('subscription').insertOne(
         subscriber,
